@@ -4,7 +4,7 @@ Discord bot to help set up PUGs
 
 ## Help
 `@pug <command>`
-
+```
 create: Start a new queue in this channel
 join: Add yourself to the queue
 quit: Leave the queue
