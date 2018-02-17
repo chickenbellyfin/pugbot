@@ -3,16 +3,26 @@ Discord bot to help set up PUGs
 
 
 ## Help
-Help - @pug <command>
+`@pug <command>`
+
 **create**: Start a new queue in this channel
+
 **join**: Add yourself to the queue
+
 **quit**: Leave the queue
+
 **add**: Add @ mentioned members
+
 **remove**: Remove @ mentioned members
+
 **list**: See who's in the queue
+
 **assign**: Assigns teams & captains
+
 **end**: End pug
+
 **help**: this
+
 
 ## Setup
 0. Create a bot user in discord's developer site and add it to some channel(s)
