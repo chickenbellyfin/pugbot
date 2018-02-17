@@ -37,7 +37,8 @@ async def on_join(channel, message, pug):
 
 @manage_pug
 async def on_quit(channel, message, pug):
-	pug.remove(message.author)
+	if message.author in pug:
+		pug.remove(message.author)
 	await client.add_reaction(message, EMOJI_CHECK)
 
 @manage_pug
